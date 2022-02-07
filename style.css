@@ -6,6 +6,7 @@ corpo - font-family: 'Roboto Slab', serif;
     margin: auto;
     padding: 0;
 }
+html, body {margin: 0; height: 100%; overflow: hidden}
 body{
     background: #dee5e5;
     font-family: 'Roboto Slab', serif;
@@ -29,8 +30,9 @@ body{
     justify-content: center;   
 }
 .container-quadrado{
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
+    border-radius: 15px;
     background: #25272D;
     color:white;
     margin-top: 1.2em;
@@ -47,10 +49,12 @@ body{
 }
 .bn{
     background-color: #5E6472;
+    color:white;
+    font-size: 15px;
     padding: 1em;
-    width: 80px;
-    height: 80px;
-    border-radius: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
     border: 1px solid gray;
     text-align: center;
     margin: auto;
@@ -72,9 +76,14 @@ body{
     border-radius: 4px;
     font-family: 'Roboto Slab', serif;
 
-
+    
     background-color: #2c2f36;
     color: white;
     font-size: 20px;
     cursor: pointer;
+}
+#print{
+    margin-left: 175%;
+    margin-bottom: 1em;
+    color:#39393A;
 }
